@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <h2>{count}</h2>
-      <button onClick={add}>Increase</button>
-      <button onClick={minus}>Reduce</button>
+      <button onClick={add} className="add">Increase</button>&nbsp;
+      <button onClick={minus} className="minus">Reduce</button>
     </div>
   );
 }
